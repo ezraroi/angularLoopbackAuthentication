@@ -1,0 +1,27 @@
+{
+  "name": "angularLoopbackAuthentication",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ezraroi/angularLoopbackAuthentication",
+  "authors": [
+    "ezraroi <ezraroi@gmail.com>"
+  ],
+  "description": "Angular authentication service for loopback nodejs backend server",
+  "main": ["authenticationService.js","authInterceptorService.js"],
+  "keywords": [
+    "angularjs",
+    "angular",
+    "loopback",
+    "authentication"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-local-storage": "~0.1.5"
+  }
+}
